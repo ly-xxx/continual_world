@@ -1,0 +1,22 @@
+{
+  "cl_method": "cotasp",
+  "use_popart": false,
+  "env_name": "MetaWorld-CL",
+  "policy_type": "sac",
+  "hidden_dim": 256,
+  "replay_buffer_size": 1000000,
+  "batch_size": 256,
+  "rollout_batch_size": 1,
+  "steps_per_task": 1000000,
+  "lr_actor": 0.0003,
+  "lr_critic": 0.0003,
+  "gamma": 0.99,
+  "tau": 0.005,
+  "alpha": 0.2,
+  "train_alpha": true,
+  "target_entropy": null,
+  "use_cuda": true,
+  "seed": 0,
+  "target_update_interval": 1,
+  "automatic_regularization": false
+} 

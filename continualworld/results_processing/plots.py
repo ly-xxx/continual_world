@@ -24,6 +24,7 @@ RENAMER = {
     "cl_method=reservoir": "Perfect Memory",
     "cl_method=mtl": "Multi-Task",
     "cl_method=mtl_popart": "Multi-Task + PopArt",
+    "cl_method=cotasp": "COTASP",
 }
 
 

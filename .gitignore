@@ -148,3 +148,8 @@ mjkey.txt
 /logs
 checkpoints
 /results
+
+
+/saved_logs/cl_o
+/saved_logs/mt
+/saved_logs/single

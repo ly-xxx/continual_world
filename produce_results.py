@@ -8,6 +8,12 @@ from continualworld.utils.utils import get_readable_timestamp, str2bool
 
 
 def main(args: argparse.Namespace) -> None:
+    # args.cl_logs = "./saved_logs_2"
+
+    args.cl_logs = "./saved_logs/cl"
+
+    args.mtl_logs = "./saved_logs/mt"
+    args.baseline_logs = "./saved_logs/single"
     cl_data = get_data_for_runs(args.cl_logs, kind="cl")
     mtl_data = get_data_for_runs(args.mtl_logs, kind="mtl")
     baseline_data = get_data_for_runs(args.baseline_logs, kind="single")
